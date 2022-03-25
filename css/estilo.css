@@ -1,11 +1,29 @@
 body{
-  background-color:#BA55D3;  
+  background-color:#F08080;  
 }
 
-img{
-    width:50%;
+.img_topo{
+  width: 100%;
+}
+
+.img_corpo{
+  width: 50%;
 }
 
 figure{
     text-align: center;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+}
+
+h1{
+  text-align: center;
+  color: #fff;
+}
+
+p{
+  font-size: 1.4em;
 }

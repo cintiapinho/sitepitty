@@ -26,4 +26,7 @@ h1{
 
 p{
   font-size: 1.4em;
+  color: #fff;
+  text-align: justify;
+  text-indent: 40px;
 }

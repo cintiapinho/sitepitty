@@ -5,8 +5,19 @@ body{
   background-color:#F08080;  
 }
 
+.logo{
+  padding-top: 1%;
+  padding-bottom: 1%;
+}
+
 .menu{
   background-color: darkgrey;
+  padding: 1.5%;
+}
+
+.itens_menu{
+  line-height: 1.5;
+  text-align: center;
 }
 
 .fundo_diferente{
@@ -40,7 +51,6 @@ h2{
   text-align: center;
   color: 	#8B0000;
   font-size: 1.5em;
-
 }
 
 p{
@@ -48,11 +58,13 @@ p{
   color: #fff;
   text-align: justify;
   text-indent: 40px;
+  line-height: 1.5;
 }
 
 .parag_letras > p{
 
   font-size: 1em;
+  line-height: 1.5;
 }
 
 .pinta_botao{

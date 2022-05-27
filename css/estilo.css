@@ -11,10 +11,7 @@ body{
 }
 
 .menu, footer{
-  background-color: rgba(128, 128, 128, 0.3);
-  /* rgba(199, 21, 133, 0.2);  */  
-  /* rgba(143, 188, 143, 0.2); */
-  /* rgba(128, 128, 128, 0.4); */
+  background-color: rgba(128, 128, 128, 0.3); 
   padding: 1.5%;
 }
 
@@ -22,6 +19,51 @@ body{
   line-height: 1.5;
   text-align: center;
 }
+
+.itens_menu a{
+  font-size: 1.2em;
+}
+
+.itens_menu a:link{
+ 
+    color: #fff;
+    text-decoration: none;
+  }
+  
+ 
+.itens_menu a:visited {
+    color: #FFF;
+    text-decoration: none;
+  }
+  
+  /* mouse over link */
+.itens_menu a:hover {
+    color: #fff;
+    padding: 0.8%;    
+    background-color: rgba(128, 128, 128, 0.3); 
+    text-decoration: none;
+    border-radius: 15%;
+
+  }
+  
+  /* selected link */
+.itens_menu a:active {
+    color: #FFF;
+    text-decoration: none;
+  }
+
+section a:link{
+  color: #696969;
+}
+
+section a:visited {
+  color: #FFF; 
+}
+
+section a:hover{
+  color: #696969;
+}
+
 
 .fundo_diferente{
   background-image: linear-gradient(to right, #F08080 , #fff);
@@ -33,6 +75,8 @@ body{
 
 .img_corpo{
   width: 50%;
+  margin-top: 1%;
+  margin-bottom: 1%;
 }
 
 figure{
@@ -54,6 +98,7 @@ h2{
   text-align: center;
   color: 	#8B0000;
   font-size: 1.5em;
+  margin-bottom: 2%;
 }
 
 p{
@@ -86,6 +131,11 @@ footer p{
   font-size: 1.2em;
   text-align: center;
 
+}
+
+section{
+  margin-top: 2%;
+  margin-bottom: 2%;
 }
 
 

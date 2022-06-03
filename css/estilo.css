@@ -112,7 +112,7 @@ p{
   height: 40px;
   background-color: #F08080;
   margin: auto; 
-  padding: 0.8%;
+  padding: 0.2%;
   text-align: center;  
   padding-top: 3%; 
       
@@ -124,10 +124,10 @@ p{
 
 .pinta_botao a:link, .pinta_botao :visited{
   text-align: center;
-  text-decoration: none ;    
+  text-decoration: none ; 
+  font-weight: bolder;   
 
 }
-
 
 footer p{
 
@@ -143,6 +143,20 @@ section{
 
 .escondido{
   display: none;
+}
+
+.direita{
+  float:right;
+  width: 40%;
+  margin-left: 2%;
+
+}
+
+.esquerda{
+  float: left;
+  width: 30%;
+  
+  margin-right: 2%;
 }
 
 

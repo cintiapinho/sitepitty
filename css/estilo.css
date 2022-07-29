@@ -1,3 +1,10 @@
+
+@font-face {
+  font-family: EduNSWACTFoundation-VariableFont_wght ;
+  
+  src: url('../fonts/EduNSWACTFoundation-VariableFont_wght.ttf')
+}
+
 html{
   scroll-behavior: smooth;
 }
@@ -15,9 +22,11 @@ body{
   width: 15%;
 }
 
+
 .menu, footer{
   background-color: rgba(128, 128, 128, 0.3); 
-  padding: 1.5%;
+  padding: 1.5%;  
+  font-family: 'Patrick Hand', cursive;
 }
 
 .itens_menu{
@@ -89,6 +98,7 @@ h1{
   text-align: center;
   color: #fff;
   font-size: 2em;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 h2{
@@ -96,6 +106,7 @@ h2{
   color: 	#8B0000;
   font-size: 1.5em;
   margin-bottom: 2%;
+  font-family: 'Berkshire Swash', cursive;
 }
 
 p{
@@ -104,6 +115,7 @@ p{
   text-align: justify;
   text-indent: 40px;
   line-height: 1.5;
+  font-family: 'EduNSWACTFoundation-VariableFont_wght',cursive;
 }
 
 .parag_letras > p{

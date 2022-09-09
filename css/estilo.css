@@ -18,6 +18,9 @@ header{
   font-family: 'Patrick Hand', cursive;
   background-color: #F08080;
   position: relative;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .fixo{
@@ -25,12 +28,10 @@ header{
   top: 0;
   left: 0;
   right: 0;
+  z-index: 1;
 
 }
 
-.banner{
-  margin-top: 25%;
-}
 
 .logo{
   padding-top: 1%;
@@ -39,7 +40,7 @@ header{
 }
 
 .img_logo{
-  width: 15%;
+  width: 30%;
 }
 
 footer{
@@ -299,17 +300,46 @@ input[type=submit]:hover {
 }
 
 
-@media screen and (max-width:450px) {
+/*Faz uma alteração quando a tela fica menor que 600px */
+@media screen and (max-width:600px) {
 
   .col-25, .col-75, input[type=submit] {
     width: 100%;
     margin-top: 0;
    
+  }  
+
+  .banner{
+    margin-top: 40%;
+  }
+}
+/*Faz uma alteração quando a tela fica maior que 601px */
+@media screen and (min-width:601px) {
+
+  header{
+    flex-direction: row;
   }
 
- 
+  .itens_menu{
+    position: absolute;
+    right: 3%;
+    top: 30%;
+    width: 60%;
 
-  
+  }
+
+  .itens_menu ul li {
+        display: inline;
+        margin-left: 1%;
+
+
+  }
+
+  .banner{
+    margin-top: 8%;
+  }
+
+    
 }
  
 

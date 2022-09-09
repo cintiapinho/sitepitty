@@ -33,11 +33,7 @@ header{
 }
 
 
-.logo{
-  padding-top: 1%;
-  padding-bottom: 1%;
-  text-align: center;
-}
+
 
 .img_logo{
   width: 30%;
@@ -312,6 +308,16 @@ input[type=submit]:hover {
   .banner{
     margin-top: 40%;
   }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: center;
+  }
+
+  .descer{
+    margin-top: 50%;
+  }
 }
 /*Faz uma alteração quando a tela fica maior que 601px */
 @media screen and (min-width:601px) {
@@ -324,7 +330,7 @@ input[type=submit]:hover {
     position: absolute;
     right: 3%;
     top: 30%;
-    width: 60%;
+    width: 70%;
 
   }
 
@@ -337,6 +343,17 @@ input[type=submit]:hover {
 
   .banner{
     margin-top: 8%;
+  }
+
+  .logo{
+    padding-top: 1%;
+    padding-bottom: 1%;
+    text-align: left;
+    width: 30%;
+  }
+
+  .descer{
+    margin-top: 10%;
   }
 
     
